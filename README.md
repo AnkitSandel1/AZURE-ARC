@@ -2,6 +2,9 @@
 
 Azure Arc is a tool from Microsoft that helps you manage your IT resources—whether they’re in your data center, on other clouds, or at the edge—from one central place using Azure’s tools.
 
+![image](https://github.com/user-attachments/assets/3411e0c7-6457-42fa-9064-a2276ec4a8c0)
+
+
 ### **What It Does:**
 - **Brings Everything Together**: It connects all your servers, databases, and Kubernetes clusters (a system to manage apps) under Azure for easy management.
 - **Centralized Control**: You can apply rules, monitor performance, and ensure security for resources no matter where they are.
