@@ -4,6 +4,7 @@ Azure Arc is a tool from Microsoft that helps you manage your IT resources—whe
 
 ![image](https://github.com/user-attachments/assets/3411e0c7-6457-42fa-9064-a2276ec4a8c0)
 
+The image shows how Azure Arc helps manage different resources like servers, databases, and apps across on-premises systems, Azure, and other clouds (like AWS or Google Cloud). Azure Arc connects these resources to **Azure Resource Manager**, making them manageable like Azure resources. It enables centralized operations for security, compliance, and monitoring. On the left, on-premises systems (like VMware or Azure Stack HCI) can be onboarded to Azure Arc. On the right, services running in other clouds can also be managed through Azure. Once onboarded, you can deploy Azure services (like app hosting or machine learning) to these environments. Azure Arc brings everything together, so all resources can be managed in one place.
 
 ### **What It Does:**
 - **Brings Everything Together**: It connects all your servers, databases, and Kubernetes clusters (a system to manage apps) under Azure for easy management.
