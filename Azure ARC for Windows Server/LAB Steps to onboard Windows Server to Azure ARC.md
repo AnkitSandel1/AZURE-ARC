@@ -17,10 +17,6 @@
 The installation process creates the following folders during setup.
 ![image](https://github.com/user-attachments/assets/1236143c-385a-4b8d-b6a4-ae720ecd0fcf)
 
-Installing the agent creates the following Windows services on the target machine.
-![image](https://github.com/user-attachments/assets/a43724d9-4fc9-4672-b09d-9d951e347dd5)
-
-
 4. **Install Azure Arc Module**:
    Run below command to install the Azure Arc module.
      `Install-Module -Name Az.ConnectedMachine`   
@@ -49,6 +45,10 @@ Installing the agent creates the following Windows services on the target machin
 
 12. **Check Service Status**: Ensure the following services are running:  
    - **HIMDS**: For the hybrid instance.  
-   - **GCArcService**: For Windows Guest OS.  
+   - **GCArcService**: For Windows Guest OS.
+     
+Installing the agent creates the following Windows services on the target machine.
+![image](https://github.com/user-attachments/assets/a43724d9-4fc9-4672-b09d-9d951e347dd5)
+
 
 For detailed steps, refer to the [Microsoft documentation on connecting hybrid machines](https://learn.microsoft.com/en-us/azure/azure-arc/servers/powershell-connect).  
