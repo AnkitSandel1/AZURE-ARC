@@ -18,32 +18,38 @@ The installation process creates the following folders during setup.
 ![image](https://github.com/user-attachments/assets/1236143c-385a-4b8d-b6a4-ae720ecd0fcf)
 
 4. **Install Azure Arc Module**:
+   
    Run below command to install the Azure Arc module.
      `Install-Module -Name Az.ConnectedMachine`   
 
-5. **Login to Azure**:
+6. **Login to Azure**:
+   
    Use `Connect-AzAccount` to log in and check the selected subscription.
    Change the subscription, if needed, with `Set-AzContext -Subscription "subscription-id"`.
    ![image](https://github.com/user-attachments/assets/4369097b-6685-44e8-a1fc-50292bf8abcc)
  
 
 7. **Onboard Server to Azure Arc**:
+   
    Use the following command to onboard the server:
 
        Connect-AzConnectedMachine -ResourceGroupName <ResourceGroupName> -Name <ServerName> -Location <Location>
   
 
-8. **Verify Success**:
+9. **Verify Success**:
+    
    Check the PowerShell output for success or troubleshoot errors.
    ![image](https://github.com/user-attachments/assets/3744d083-c7be-4c61-aaab-5fdee8a8b499)
 
 
-10. **Validate on Azure Portal**:
+11. **Validate on Azure Portal**:
+    
     Go to the Azure Arc section in the portal to verify the server is listed under Windows Server.
     ![image](https://github.com/user-attachments/assets/cf799e02-15ae-4732-b030-9494a1415ec5)
 
 
-12. **Check Service Status**: Ensure the following services are running:  
+13. **Check Service Status**: Ensure the following services are running:
+    
    - **HIMDS**: For the hybrid instance.  
    - **GCArcService**: For Windows Guest OS.
      
