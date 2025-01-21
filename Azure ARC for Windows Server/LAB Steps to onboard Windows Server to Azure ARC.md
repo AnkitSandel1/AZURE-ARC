@@ -50,5 +50,3 @@ The installation process creates the following folders during setup.
 Installing the agent creates the following Windows services on the target machine.
 ![image](https://github.com/user-attachments/assets/a43724d9-4fc9-4672-b09d-9d951e347dd5)
 
-
-For detailed steps, refer to the [Microsoft documentation on connecting hybrid machines](https://learn.microsoft.com/en-us/azure/azure-arc/servers/powershell-connect).  
